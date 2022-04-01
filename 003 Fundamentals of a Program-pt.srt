@@ -1,0 +1,1024 @@
+1
+00:00:05,680 --> 00:00:07,490
+Ol e bem vindo de volta.
+
+2
+00:00:07,690 --> 00:00:13,560
+Vamos falar sobre os fundamentos do programa, j que esta  uma classe de programao inicial,
+
+3
+00:00:13,550 --> 00:00:19,120
+especificamente vamos falar sobre C antes que voc possa entender at mesmo uma linguagem de programao
+
+4
+00:00:19,120 --> 00:00:25,240
+que voc precisa para entender o que  um programa, ento eu quero descrever alguns conceitos bsicos
+
+5
+00:00:25,240 --> 00:00:28,700
+bsicos para voc antes de comearmos nos detalhes de C. Computadores so mquinas muito burras.
+
+6
+00:00:28,810 --> 00:00:30,400
+Vocs so.
+
+7
+00:00:30,400 --> 00:00:31,210
+Tenho certeza de
+
+8
+00:00:31,360 --> 00:00:37,510
+que mais do que muitos deles no esto familiarizados com o que um computador pode fazer e o que ele faz especificamente, e o que
+
+9
+00:00:37,510 --> 00:00:43,260
+est acontecendo em termos de quando voc clica em seu navegador quando clica em diferentes aplicativos que usam o que est acontecendo sob o
+
+10
+00:00:43,270 --> 00:00:47,350
+H algum tipo de programa em execuo e esse programa est dizendo ao computador o que fazer.
+
+11
+00:00:47,350 --> 00:00:50,980
+Os computadores so realmente idiotas, s fazem o que lhes  mandado.
+
+12
+00:00:50,980 --> 00:00:54,880
+Assim, as operaes bsicas de um computador formaro o
+
+13
+00:00:54,880 --> 00:01:00,530
+que  conhecido como instruo do computador, configurando um conjunto de instrues.
+
+14
+00:01:00,560 --> 00:01:01,520
+Voc pode pensar sobre isso.
+
+15
+00:01:01,540 --> 00:01:03,290
+ como isso vai fazer alguma coisa.
+
+16
+00:01:03,400 --> 00:01:05,160
+Ento, precisamos dizer a esse
+
+17
+00:01:05,350 --> 00:01:10,870
+computador como ele ser feito na forma de um programa em um nvel ainda mais baixo.
+
+18
+00:01:10,870 --> 00:01:11,610
+Cada computador
+
+19
+00:01:11,620 --> 00:01:18,160
+tem o que  chamado de conjunto de instrues e conjunto de instrues  basicamente as instrues no.
+
+20
+00:01:18,250 --> 00:01:19,090
+O processador do computador.
+
+21
+00:01:19,120 --> 00:01:21,400
+Ento, para resolver um problema usando seu computador, dizendo-lhe o que fazer.
+
+22
+00:01:21,530 --> 00:01:26,580
+Voc fornece essa soluo enviando essas instrues para o conjunto de instrues.
+
+23
+00:01:26,890 --> 00:01:31,550
+Ento  isso que est acontecendo quando voc escreve um programa de computador
+
+24
+00:01:32,470 --> 00:01:36,490
+ se voc est enviando instrues especficas para resolver um problema
+
+25
+00:01:36,820 --> 00:01:46,400
+especfico os comandos para o CPQ o processador OK e a abordagem seu mtodo que  usado para resolver o problema  conhecido como um algoritmo pra
+
+26
+00:01:46,410 --> 00:01:51,960
+vcs que entendem matemtica e algoritmo  apenas mais uma vez como voc est resolvendo um problema.
+
+27
+00:01:51,990 --> 00:01:55,300
+Ento, por exemplo, se voc for criar um programa
+
+28
+00:01:55,410 --> 00:02:01,530
+inteiro e tudo o que ele faz  testar se um usurio digita ou no um nmero
+
+29
+00:02:01,530 --> 00:02:08,330
+mpar ou par, o que seria descrito como o prprio algoritmo  testar se o nmero  ou no mpar.
+
+30
+00:02:08,330 --> 00:02:09,920
+Esse  o algoritmo.
+
+31
+00:02:09,980 --> 00:02:11,660
+As afirmaes que solucionam o
+
+32
+00:02:11,660 --> 00:02:17,670
+problema em sua totalidade porque o programa e vamos discutir esse algoritmo de conceito e algoritmo ou
+
+33
+00:02:17,670 --> 00:02:24,480
+at mesmo  mais parecido com relao a programao de mdulo ento vamos falar sobre isso falamos mais sobre
+
+34
+00:02:24,480 --> 00:02:30,840
+os detalhes de C mas novamente, quero deixar voc entender o que est fazendo quando est escrevendo cdigo.
+
+35
+00:02:30,840 --> 00:02:32,640
+O que est acontecendo na camada
+
+36
+00:02:32,640 --> 00:02:37,710
+muito mais baixa voc vai escrever esses algoritmos que esto contidos dentro de um programa.
+
+37
+00:02:37,800 --> 00:02:39,960
+Ento, para escrever um programa que voc vai precisar escrever corretamente
+
+38
+00:02:40,800 --> 00:02:45,670
+as instrues para implementar o algoritmo, essas instrues podem ser expressas em qualquer tipo de declarao de uma determinada linguagem de programa de camadas.
+
+39
+00:02:47,440 --> 00:02:54,630
+Ento, vamos nos concentrar em C para esta classe, mas tenho certeza que voc j ouviu
+
+40
+00:02:54,790 --> 00:03:00,100
+falar de outras linguagens de programao como Java ou C ++.
+
+41
+00:03:00,100 --> 00:03:01,930
+Objetivo C  usado em
+
+42
+00:03:01,930 --> 00:03:09,730
+aplicativos, mas na verdade mais agora  com  usado, mas h apenas as linguagens de programao que voc pode aprender
+
+43
+00:03:09,730 --> 00:03:14,680
+que essencialmente essencialmente vai permitir que voc envie instrues para o CPE na
+
+44
+00:03:14,680 --> 00:03:23,270
+forma de algoritmos e declaraes tambm querem falar sobre alguma terminologia bsica, a unidade de processamento central do CPQ est no crebro do computador.
+
+45
+00:03:23,270 --> 00:03:26,800
+ aqui que a maior parte do trabalho est sendo feito.
+
+46
+00:03:26,810 --> 00:03:28,820
+Este  o lugar onde as instrues so executadas memria que
+
+47
+00:03:28,850 --> 00:03:34,490
+muitas vezes ouvimos este termo memria em estudantes muitas vezes ficam com a memria muito confusa com a memria do disco rgido no  o mesmo que o direito de disco rgido.
+
+48
+00:03:34,490 --> 00:03:41,290
+A memria  muitas vezes referida como RAM, que  a memria de acesso aleatrio.
+
+49
+00:03:41,360 --> 00:03:45,710
+Todos os dados armazenados na memria so um componente de hardware separado.
+
+50
+00:03:46,160 --> 00:03:49,340
+No  uma unidade de disco real toda a memria
+
+51
+00:03:49,340 --> 00:03:55,700
+de todos os dados do programa  armazenado na memria do componente horder separado para que ele armazena os dados que
+
+52
+00:03:55,700 --> 00:04:00,500
+o programa est sendo executado e vamos falar sobre as variveis e o que elas significam.
+
+53
+00:04:00,500 --> 00:04:01,420
+Mas um programa precisa ter dados para clculos para fazer algoritmos.
+
+54
+00:04:01,490 --> 00:04:07,880
+Esses dados sero armazenados na memria RAM.
+
+55
+00:04:08,060 --> 00:04:10,520
+A razo pela qual armazenamos na memria ao invs de
+
+56
+00:04:10,520 --> 00:04:16,070
+armazen-lo em um disco rgido  que a memria  muito mais rpida e permite que o programa rode muito mais rpido.
+
+57
+00:04:16,320 --> 00:04:19,060
+Mas a memria tambm no  persistente entre reinicializaes e outros tipos de esclarecimentos.
+
+58
+00:04:19,850 --> 00:04:24,620
+Mas voc deve entender apenas este termo ram significa memria.
+
+59
+00:04:24,620 --> 00:04:27,920
+So as variveis nos dados do programa em si, onde so armazenadas para separar o componente
+
+60
+00:04:27,980 --> 00:04:32,920
+de hardware, em seguida, o disco rgido da unidade de hardware  algo que voc compra com o computador que  armazenamento permanente.
+
+61
+00:04:32,930 --> 00:04:39,390
+Isso geralmente  realmente muito grande e contm gigabytes terabytes de dados.
+
+62
+00:04:39,410 --> 00:04:43,900
+Esta fonte arquivos que talvez recursos de um programa.
+
+63
+00:04:43,970 --> 00:04:48,440
+E quando voc desligar o computador e ligar esses arquivos ainda esto l quando voc desligar o
+
+64
+00:04:48,990 --> 00:04:54,510
+computador e no programa para um programa, o programa realmente pra de executar e no h nada na memria RAM.
+
+65
+00:04:54,510 --> 00:05:00,980
+Ento eu entendo a diferena entre RAM e disco rgido.
+
+66
+00:05:01,170 --> 00:05:03,360
+ um conceito importante.
+
+67
+00:05:03,360 --> 00:05:05,070
+Novamente, pense em RAM como
+
+68
+00:05:05,070 --> 00:05:12,670
+relacionado ao disco rgido do programa relacionado ao armazenamento permanente e geralmente colocamos recursos, haver arquivos de sistema operacional, todos os
+
+69
+00:05:12,670 --> 00:05:19,240
+tipos de recursos de programas diferentes, um sistema operacional  desenvolvido para tornar sua vida muito mais fcil
+
+70
+00:05:19,240 --> 00:05:26,350
+quando voc quiser usar um computador, porque em um nvel muito baixo, um computador est apenas fazendo o que
+
+71
+00:05:26,440 --> 00:05:31,720
+ dito e so apenas instrues sobre o uso de um conjunto de instrues.
+
+72
+00:05:31,720 --> 00:05:32,400
+Voc ser muito difcil de usar se tiver que entender todas essas instrues.
+
+73
+00:05:32,400 --> 00:05:36,580
+Portanto, h um programa chamado sistema operacional que facilita o uso do computador por um usurio.
+
+74
+00:05:36,670 --> 00:05:43,220
+Ele controla todo o funcionamento do computador manipula toda a entrada e sada do
+
+75
+00:05:43,270 --> 00:05:49,810
+hardware para que ele entenda como interagir com um teclado de mouse um monitor.
+
+76
+00:05:49,810 --> 00:05:53,620
+Ele tambm gerencia a execuo de diferentes aplicativos do
+
+77
+00:05:53,710 --> 00:05:59,590
+gerenciador de recursos do computador e o sistema operacional  uma classe completamente separada.
+
+78
+00:05:59,590 --> 00:06:02,050
+H muito que entra em um sistema operacional, mas entende o bsico disso.
+
+79
+00:06:02,050 --> 00:06:06,540
+Est apenas permitindo que voc use seu computador de maneira mais fcil.
+
+80
+00:06:06,580 --> 00:06:09,490
+Alguns exemplos de sistemas operacionais muito comuns so coisas como windows right.
+
+81
+00:06:09,490 --> 00:06:13,570
+Todo mundo usa o Windows.
+
+82
+00:06:13,630 --> 00:06:15,320
+Windows 10, quando era XP, qualquer
+
+83
+00:06:15,430 --> 00:06:21,670
+que fosse o caso do Linux Unix sobre o qual falaremos mais sobre o histrico do Android como sistema operacional para dispositivos mveis.
+
+84
+00:06:21,670 --> 00:06:26,500
+IOS estes so programas especficos que so muito grandes que podem
+
+85
+00:06:26,500 --> 00:06:33,910
+conter muitos programas diferentes que interagem facilitam muito a sua vida com a interao com um computador.
+
+86
+00:06:34,210 --> 00:06:37,450
+O prximo ciclo de execuo  o ciclo de vida.
+
+87
+00:06:37,450 --> 00:06:40,670
+Eu s mencionei isso porque mais uma vez somos apenas uma saia descrevendo a terminologia bsica.
+
+88
+00:06:40,720 --> 00:06:45,180
+ assim que quando voc envia instrues para um computador, o C. P. voc.
+
+89
+00:06:45,280 --> 00:06:49,560
+O que est realmente acontecendo 
+
+90
+00:06:49,780 --> 00:06:54,610
+que voc est buscando as instrues da memria, porque esse  o programa e, em seguida, voc vai executar isso no CPI.
+
+91
+00:06:55,240 --> 00:06:58,530
+E  esse tipo de loop que voc est fazendo
+
+92
+00:06:58,710 --> 00:07:04,140
+repetidamente e repetindo e se voc j ouviu falar do termo giga Hertz gigahertz falando voc C. P. voc pode fazer cerca de um bilho de vezes por segundo um bilho
+
+93
+00:07:04,140 --> 00:07:09,380
+de instrues por segundo.
+
+94
+00:07:09,570 --> 00:07:11,060
+Ento voc pode imaginar o que est acontecendo quando voc est executando um computador com este ciclo de vida de execuo.
+
+95
+00:07:11,310 --> 00:07:19,040
+E aqui est uma pequena ilustrao que eu tirei de uma imagem na internet que mostra os efeitos de nos mostrar
+
+96
+00:07:19,040 --> 00:07:24,750
+um pouco do que est acontecendo quando voc est interagindo com o CPQ. E essas instrues.
+
+97
+00:07:24,800 --> 00:07:32,160
+O que est acontecendo  que voc est pegando da RAM e o ram lembre-se de conter dados de
+
+98
+00:07:32,160 --> 00:07:37,740
+programas que voc est pegando dados para instrues e voc est constantemente decodificando os
+
+99
+00:07:37,740 --> 00:07:44,190
+dados que so armazenados em registradores e RAM e ento executando em diferentes partes do s. p ou a unidade de controle ou o Alieu que  um loop, embora apenas repita repetidamente e novamente
+
+100
+00:07:44,190 --> 00:07:50,530
+para C-p usar hoje em dia um bilho de vezes.
+
+101
+00:07:50,530 --> 00:07:56,480
+Ento, quando falamos sobre programas em C e escrevemos programas em C no
+
+102
+00:07:57,170 --> 00:08:03,050
+nvel muito baixo, por baixo de tudo, estamos apenas interagindo com o C. P. voc atravs da nossa linguagem de programao de nvel superior.
+
+103
+00:08:03,500 --> 00:08:09,050
+Portanto, linguagens de programao de nvel superior de linguagem de programao de nvel superior facilitam a gravao de programas.
+
+104
+00:08:09,250 --> 00:08:16,030
+Agora, se tivssemos que entender novamente todas essas instrues no CPE, seria muito
+
+105
+00:08:16,030 --> 00:08:19,750
+difcil escrever e entender todas as instrues.
+
+106
+00:08:19,750 --> 00:08:22,840
+Isso geralmente significa que  uma linguagem assembly.
+
+107
+00:08:22,840 --> 00:08:24,620
+Voc j ouviu falar do termo linguagem
+
+108
+00:08:24,660 --> 00:08:28,990
+de montagem, significa apenas que voc est escrevendo um programa em um nvel muito baixo, onde
+
+109
+00:08:29,350 --> 00:08:34,060
+ to baixo que voc entende o conjunto de instrues e pode imaginar que, se voc escrevesse todos
+
+110
+00:08:34,060 --> 00:08:39,520
+os seus programas com todas essas instrues. instrues seria muito ineficiente e muito difcil de escrever para escrever um programa.
+
+111
+00:08:39,520 --> 00:08:41,960
+Portanto, a linguagem de programao de nvel superior  o oposto de uma linguagem assembly.
+
+112
+00:08:42,160 --> 00:08:45,970
+ um nvel muito mais alto.
+
+113
+00:08:45,970 --> 00:08:47,970
+Um exemplo  s. c  uma linguagem de programao de alto nvel.
+
+114
+00:08:47,980 --> 00:08:51,280
+Descreve as aes que o programa ir realizar de uma maneira muito mais abstrata.
+
+115
+00:08:51,280 --> 00:08:55,520
+Voc no precisa memorizar as instrues do CPQ,
+
+116
+00:08:55,540 --> 00:09:02,110
+basta entender a prpria linguagem e resolver os problemas por meio desses algoritmos.
+
+117
+00:09:02,110 --> 00:09:04,920
+Parece muito mais com a lngua inglesa.
+
+118
+00:09:04,930 --> 00:09:07,840
+ muito mais fcil de entender se voc
+
+119
+00:09:07,990 --> 00:09:13,870
+olhasse para uma linguagem de montagem que voc ver  mover comandos com registradores com nmeros
+
+120
+00:09:13,870 --> 00:09:21,650
+basicamente apenas instrues numricas usando uma linguagem de nvel mais alto como C voc no precisa se preocupar nada disso voc
+
+121
+00:09:21,650 --> 00:09:24,950
+no precisa se preocupar com o conjunto de instrues.
+
+122
+00:09:24,950 --> 00:09:25,340
+Voc no precisa se preocupar com declaraes de linguagem assembly.
+
+123
+00:09:25,490 --> 00:09:27,690
+Portanto,  muito mais eficiente e muito mais fcil de realizar e resolver problemas.
+
+124
+00:09:27,920 --> 00:09:33,660
+Ento, vamos estudar como nossas linguagens de programao de nvel superior.
+
+125
+00:09:33,710 --> 00:09:36,940
+Mas outros exemplos seriam java Objetivo-C coisas que eu
+
+126
+00:09:36,950 --> 00:09:43,820
+mencionei estas so linguagens de programao Hailo que tornam sua vida muito mais fcil e muito mais eficiente.
+
+127
+00:09:44,420 --> 00:09:47,010
+E, alm disso, essas linguagens de programao
+
+128
+00:09:47,510 --> 00:09:51,860
+de nvel superior, se voc tiver essa linguagem,  mais abstrata.
+
+129
+00:09:51,860 --> 00:09:52,640
+Voc tem que ser capaz de tomar esse idioma e depois execut-lo em um C. P. voc.
+
+130
+00:09:52,910 --> 00:09:57,250
+Voc precisa convert-lo essencialmente em instrues que o CPQ entende.
+
+131
+00:09:57,430 --> 00:10:02,090
+E  a que o nosso compilador entra em cena.
+
+132
+00:10:02,170 --> 00:10:04,980
+Muitas vezes, quando voc escreve cdigo em programao, voc vai
+
+133
+00:10:05,080 --> 00:10:11,260
+usar um compilador que traduz esse cdigo fonte de linguagem de alto nvel em instrues detalhadas de linguagem de mquina, basicamente em assembly.
+
+134
+00:10:11,260 --> 00:10:17,360
+Ento voc vai escrever um programa que vai fazer um pensamento abstrato mais
+
+135
+00:10:17,440 --> 00:10:23,730
+alto e ento o compilador vai gerar todos os milhes de instrues que
+
+136
+00:10:23,730 --> 00:10:27,930
+vo para o CPQ no set de instrues.
+
+137
+00:10:27,930 --> 00:10:28,300
+Ento, vamos usar um compilador nesta classe para fazer exatamente isso.
+
+138
+00:10:29,540 --> 00:10:33,230
+Vamos escrever o cdigo-fonte em um formato abstrato de nvel muito mais alto e,
+
+139
+00:10:33,230 --> 00:10:38,390
+em seguida, vamos executar um programa chamado compilador para converter esse cdigo em algo que o CPE entenda legal.
+
+140
+00:10:38,390 --> 00:10:44,530
+A outra coisa sobre os compiladores  que eles tambm vo verificar se o
+
+141
+00:10:44,630 --> 00:10:48,440
+seu programa tem ou no uma sintaxe vlida.
+
+142
+00:10:48,440 --> 00:10:49,480
+Ento, quando voc escreve
+
+143
+00:10:49,910 --> 00:10:54,830
+um cdigo, voc tem que seguir as regras da linguagem, as regras da linguagem so essencialmente a sintaxe, tenha
+
+144
+00:10:54,830 --> 00:10:59,270
+ou no um ponto e vrgula no final de uma afirmao, quer voc use ou no certas palavras.
+
+145
+00:10:59,270 --> 00:11:01,400
+Se voc fizer essas coisas incorretamente, no poder executar seu programa.
+
+146
+00:11:01,580 --> 00:11:07,040
+Ento, o compilador vai encontrar todos esses erros e ele vai lhe informar de volta para
+
+147
+00:11:07,530 --> 00:11:12,180
+voc e dizer: ei, voc no escreveu seu cdigo corretamente, voc tem que consert-los
+
+148
+00:11:12,180 --> 00:11:16,740
+antes de ns realmente convertermos essas coisas para o conjunto de instrues. no CPQ.
+
+149
+00:11:16,770 --> 00:11:21,180
+Ento, vamos nos familiarizar com compiladores em um sentido geral
+
+150
+00:11:21,390 --> 00:11:26,070
+de como us-los como entender o que eles esto nos dizendo.
+
+151
+00:11:26,070 --> 00:11:27,800
+As linguagens de alto nvel so muito mais fceis de aprender, muito mais fceis de programar do que as linguagens de mquina.
+
+152
+00:11:28,050 --> 00:11:33,210
+Essa  a essncia deste slide agora  que usando a linguagem utilizando
+
+153
+00:11:33,210 --> 00:11:39,000
+a linguagem C, ela ser muito mais eficiente e fcil quando escrevermos um programa.
+
+154
+00:11:39,000 --> 00:11:45,250
+Na verdade, vamos realizar vrias etapas mltiplas.
+
+155
+00:11:45,470 --> 00:11:47,840
+E eu encontrei esta ilustrao que realmente descreve os passos de uma maneira muito legal.
+
+156
+00:11:47,900 --> 00:11:53,180
+Ento eu peguei do livro que  um conjunto bsico de passos
+
+157
+00:11:53,180 --> 00:11:59,580
+quando voc escreve qualquer tipo de programa desde a primeira etapa de definio dos objetivos
+
+158
+00:11:59,580 --> 00:12:03,990
+do programa, entendendo os requisitos para manter e modificar o programa.
+
+159
+00:12:03,990 --> 00:12:05,090
+Ento, vamos apenas percorrer
+
+160
+00:12:05,760 --> 00:12:09,450
+estes passos bem rpido e voc vai descobrir que est fazendo isso nesta aula que
+
+161
+00:12:09,450 --> 00:12:12,930
+vai ser quando comear a escrever um programa que vai seguir todos destes passos.
+
+162
+00:12:12,930 --> 00:12:15,610
+O primeiro passo ser definir a justia do programa.
+
+163
+00:12:16,620 --> 00:12:19,880
+ aqui que voc vai entender os requisitos.
+
+164
+00:12:20,160 --> 00:12:21,750
+Voc no pode comear a escrever cdigo a menos que entenda o que precisa fazer.
+
+165
+00:12:21,750 --> 00:12:24,830
+Portanto, voc precisa ter uma ideia clara do que deseja realizar
+
+166
+00:12:25,140 --> 00:12:29,580
+e desta etapa depois de entender os requisitos que voc vai comear a projetar o cdigo.
+
+167
+00:12:29,580 --> 00:12:32,520
+Quando voc cria o cdigo,  assim que o
+
+168
+00:12:32,520 --> 00:12:36,960
+cdigo vai atender aos requisitos. Como ser a aparncia da interface do usurio.
+
+169
+00:12:36,960 --> 00:12:39,260
+Como voc vai organizar seu programa ou
+
+170
+00:12:39,600 --> 00:12:43,480
+vai criar funes diferentes e tentar criar algoritmos diferentes e assim por diante.
+
+171
+00:12:43,500 --> 00:12:45,740
+Ento voc vai comear a implementar o cdigo.
+
+172
+00:12:46,420 --> 00:12:47,750
+ aqui que voc realmente escreve o cdigo e o coloca em um editor e em um ambiente de desenvolvedor integrado.
+
+173
+00:12:47,760 --> 00:12:51,700
+Voc traduz esse design para a sintaxe da linguagem de programao.
+
+174
+00:12:52,030 --> 00:12:55,590
+Nesse caso, entendemos as regras da linguagem C para
+
+175
+00:12:55,600 --> 00:13:00,820
+que voc possa usar qualquer texto que, posteriormente, usaremos algo chamado cold walks.
+
+176
+00:13:00,820 --> 00:13:02,810
+Voc normalmente quer usar algo mais
+
+177
+00:13:02,830 --> 00:13:07,060
+do que um editor de texto, algo chamado ID, sobre o qual falaremos.
+
+178
+00:13:07,060 --> 00:13:07,710
+Quando terminar
+
+179
+00:13:08,050 --> 00:13:12,400
+de escrever o cdigo,  necessrio compil-lo, pois ele precisa convert-lo no cdigo de baixo nvel.
+
+180
+00:13:12,400 --> 00:13:14,450
+Isso vai ser falado sobre isso j.
+
+181
+00:13:14,500 --> 00:13:16,350
+Ento este  um passo bem
+
+182
+00:13:16,360 --> 00:13:22,630
+bsico e ento voc roda o programa rodando o programa que est sendo executado e ento esse ser o quinto passo
+
+183
+00:13:22,630 --> 00:13:28,450
+depois que voc rodar o programa, voc no est pronto porque mesmo que voc tenha escrito o cdigo estar
+
+184
+00:13:28,450 --> 00:13:33,370
+em conformidade com os requisitos da linguagem que pode no fazer o que se pretende fazer.
+
+185
+00:13:33,370 --> 00:13:34,200
+Ento voc tem que test-lo e voc tem que encontrar e corrigir seus erros.
+
+186
+00:13:34,330 --> 00:13:37,980
+Ento, s porque um programa est rodando no significa que funcione.
+
+187
+00:13:38,080 --> 00:13:41,710
+Eu recebo muitos alunos que dizem "ei". Terminei.
+
+188
+00:13:41,800 --> 00:13:45,650
+No, voc precisa ter certeza de que,
+
+189
+00:13:45,650 --> 00:13:49,720
+quando executado, ele atende aos requisitos e faz o que voc acha que vai fazer.
+
+190
+00:13:49,720 --> 00:13:50,330
+Ento voc
+
+191
+00:13:50,530 --> 00:13:56,140
+tem que testar constantemente e voc estar executando as etapas de 1 a 6 repetidas vezes e voc vai descobrir que voc
+
+192
+00:13:56,140 --> 00:13:59,620
+vai estar escrevendo testes de cdigo escrevendo testes de cdigo escrevendo testes de cdigo.
+
+193
+00:13:59,620 --> 00:14:00,430
+E normalmente, quando voc faz isso, voc quer faz-lo em partes muito pequenas.
+
+194
+00:14:00,520 --> 00:14:03,120
+Voc quer escrever duas linhas de cdigo.
+
+195
+00:14:03,130 --> 00:14:04,250
+Teste outras duas linhas de teste de cdigo e assim por diante.
+
+196
+00:14:04,270 --> 00:14:07,770
+Ento voc precisa testar e depurar a depurao  outro conceito onde
+
+197
+00:14:07,840 --> 00:14:13,570
+muitas palestras sobre depurao, mas isso  quando voc encontrar e corrigir seus erros de programao, existem certas tcnicas que
+
+198
+00:14:13,570 --> 00:14:18,580
+voc pode fazer certas ferramentas que voc pode usar para ajud-lo a encontrar esses erros e voc vai
+
+199
+00:14:18,580 --> 00:14:25,180
+aprender uma tonelada de teste e depurao, porque voc sempre pode aprender uma grande quantidade de informaes, cometendo erros e isso vai ser normal.
+
+200
+00:14:25,180 --> 00:14:30,390
+Voc vai compilar e o programa no vai fazer o que
+
+201
+00:14:30,430 --> 00:14:36,100
+voc fez o que voc disse e vai aprender com isso.
+
+202
+00:14:36,100 --> 00:14:37,060
+E  isso que vamos fazer nesta aula.
+
+203
+00:14:37,150 --> 00:14:38,440
+Eu no vou apenas mostrar a maneira correta de fazer as coisas.
+
+204
+00:14:38,440 --> 00:14:40,410
+Eu quero mostrar a voc o caminho errado para fazer as coisas e ento voc vai ver porque isso est errado.
+
+205
+00:14:40,410 --> 00:14:43,790
+O ltimo passo  a manuteno.
+
+206
+00:14:44,840 --> 00:14:47,180
+ aqui que os programas so liberados e usados por muitas pessoas, mas ainda podem ter bugs.
+
+207
+00:14:47,180 --> 00:14:53,710
+Ento, por exemplo, quando o Windows 10  lanado, voc notar que ele
+
+208
+00:14:53,870 --> 00:15:00,140
+ainda tem bugs ainda travados e, portanto, voc est constantemente recebendo atualizaes.
+
+209
+00:15:00,140 --> 00:15:01,800
+E quando voc recebe essas atualizaes, isso  chamado de manuteno do programa.
+
+210
+00:15:02,550 --> 00:15:04,830
+Ento, s porque voc acabou de escrever
+
+211
+00:15:04,830 --> 00:15:09,390
+o cdigo e liber-lo para o pblico, isso no significa que voc tenha feito isso.
+
+212
+00:15:09,390 --> 00:15:09,930
+O ponto principal
+
+213
+00:15:09,930 --> 00:15:15,480
+ que, muitas vezes, a fase mais cara  a mais cara e mais cara, porque quando voc libera um programa ele pode estar l por cinco ou dez anos.
+
+214
+00:15:15,480 --> 00:15:18,030
+Voc pode querer ter que consertar esses bugs para que seus clientes fiquem felizes.
+
+215
+00:15:18,270 --> 00:15:21,870
+Voc tambm pode adicionar novos recursos para mant-lo atualizado no mercado.
+
+216
+00:15:21,870 --> 00:15:25,560
+Ento, a manuteno  muito importante tambm.
+
+217
+00:15:25,560 --> 00:15:27,870
+A manuteno acontece depois que voc libera o produto para o cliente.
+
+218
+00:15:27,960 --> 00:15:33,000
+Portanto, para todas essas etapas, voc pode pular etapas
+
+219
+00:15:33,000 --> 00:15:38,400
+xcuse em ordem diferente, dependendo da metodologia de programao.
+
+220
+00:15:38,400 --> 00:15:39,150
+Isso  uma outra palestra
+
+221
+00:15:39,150 --> 00:15:43,410
+inteira Bem, voc nem sempre vai necessariamente fazer os passos em uma espcie de abordagem em cascata, onde voc comea no comeo e termina no final da ltima etapa.
+
+222
+00:15:43,410 --> 00:15:47,240
+Voc pode estar projetando e, em seguida, voltando e
+
+223
+00:15:47,550 --> 00:15:52,530
+fazendo seus testes e depois voltando e redesenhando e assim por diante.
+
+224
+00:15:52,530 --> 00:15:53,370
+Ento voc vai
+
+225
+00:15:53,420 --> 00:15:59,340
+estar pulando por a dependendo do que  mais prtico da minha experincia muitos programadores novos e muitas das classes em voc
+
+226
+00:15:59,340 --> 00:16:04,770
+para mim esto ignorando os passos 1 e 2 e indo diretamente para escrever o cdigo que eles esto mostrando
+
+227
+00:16:04,770 --> 00:16:09,360
+como para escrever o cdigo, mas eles no esto mostrando porque voc est escrevendo o cdigo.
+
+228
+00:16:09,360 --> 00:16:10,540
+Ento, isso  um grande
+
+229
+00:16:10,620 --> 00:16:15,060
+erro quando voc comea a escrever cdigo, voc precisa entender os conceitos que voc precisa para entender os requisitos
+
+230
+00:16:15,060 --> 00:16:19,950
+e voc pode se dar bem com esses programas realmente pequenos, mas com programas maiores, voc precisar focar totalmente no design. .
+
+231
+00:16:19,950 --> 00:16:24,160
+Ok, quanto maior o mais complexo o programa  o mais planejamento requer.
+
+232
+00:16:24,520 --> 00:16:29,070
+Voc deve desenvolver o hbito de planejar antes de codificar para no apenas mergulhar
+
+233
+00:16:29,070 --> 00:16:33,270
+e voc perceber nas aulas desta classe que eu fao muito planejamento.
+
+234
+00:16:33,270 --> 00:16:35,710
+Eu vou lhe dizer os desafios
+
+235
+00:16:35,850 --> 00:16:42,600
+quando voc comear a escrever algum cdigo que voc precisa fazer e como voc deve projet-lo.
+
+236
+00:16:42,600 --> 00:16:44,850
+Certo, porque isso facilitar a implementao do cdigo, que  o terceiro passo.
+
+237
+00:16:45,040 --> 00:16:49,970
+Ento tenha isso em mente.
+
+238
+00:16:50,370 --> 00:16:51,670
+Muitas vezes voc pode plantar coisas usando escrevendo no papel.
+
+239
+00:16:51,690 --> 00:16:55,900
+H todo tipo de documentao legal projetando idiomas e coisas que voc pode usar.
+
+240
+00:16:55,920 --> 00:17:01,170
+Mas voc sempre quer basicamente planejar de forma eficiente e, em seguida, como
+
+241
+00:17:01,440 --> 00:17:07,500
+voc est codificando eu mencionei isso antes, mas este  outro conceito muito importante.
+
+242
+00:17:07,500 --> 00:17:09,710
+Voc sempre quer trabalhar em pequenos passos.
+
+243
+00:17:09,810 --> 00:17:11,220
+Dividir e conquistar e voc quer testar constantemente.
+
+244
+00:17:11,220 --> 00:17:13,930
+Voc no quer escrever 100 linhas de cdigo e, em seguida, dizer que estou pronto.
+
+245
+00:17:14,100 --> 00:17:16,890
+Deixe-me ir para o teste certo, porque agora, se no funcionar,
+
+246
+00:17:16,890 --> 00:17:22,290
+pode haver um erro em qualquer das 100 linhas de cdigo, o que pode ser muito mais difcil de resolver.
+
+247
+00:17:22,290 --> 00:17:23,860
+Mas se voc escrever cdigo
+
+248
+00:17:24,030 --> 00:17:30,060
+em pequenos pedaos, cinco linhas de cdigo testam, em seguida, escrever outro teste de cdigo de cinco linhas.
+
+249
+00:17:30,260 --> 00:17:30,730
+Vai ser muito mais fcil encontrar e corrigir seus erros.
+
+250
+00:17:30,780 --> 00:17:33,880
+Ento, vamos nos concentrar em dividir e conquistar.
+
+251
+00:17:34,540 --> 00:17:36,440
+Quando escrevemos nosso cdigo nesta classe, espero que isso tenha ajudado.
+
+252
+00:17:36,550 --> 00:17:41,070
+Novamente, isso  apenas um pouco de bsico.
+
+253
+00:17:41,080 --> 00:17:42,670
+Eu queria fornecer alguma terminologia bsica. Muitos de vocs
+
+254
+00:17:42,690 --> 00:17:47,080
+j devem conhecer muitas dessas informaes, mas quando voc cria quando est aprendendo uma linguagem de programao, voc precisa entender essas noes bsicas.
+
+255
+00:17:47,080 --> 00:17:52,150
+Obrigado.
+
+256
+00:17:52,150 --> 00:17:52,570
+&nbsp;
+
